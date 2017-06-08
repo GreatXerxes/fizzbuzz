@@ -1,6 +1,6 @@
 package fizzbuzz.stage1;
 
-class Stage1
+public class Stage1
 {
 	//Commented out the main method as i thought it would be easier to test
 	/*public static void main(String[] args)

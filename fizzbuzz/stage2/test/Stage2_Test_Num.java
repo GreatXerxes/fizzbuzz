@@ -1,16 +1,18 @@
-package fizzbuzz.stage1;
+package fizzbuzz.stage2.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class Stage1_Test_Num
+import fizzbuzz.stage2.Stage2;
+
+public class Stage2_Test_Num
 {
 	//Test to see if a number returns from input of 11
 	@Test
 	public void evaluatesExpression()
 	{
-		Stage1 stage = new Stage1();
+		Stage2 stage = new Stage2();
 		String result = stage.evaluate(11);
 		assertEquals("11", result);
 	}

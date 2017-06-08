@@ -1,8 +1,10 @@
-package fizzbuzz.stage1;
+package fizzbuzz.stage1.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import fizzbuzz.stage1.Stage1;
 
 public class Stage1_Test_Incorrect 
 {

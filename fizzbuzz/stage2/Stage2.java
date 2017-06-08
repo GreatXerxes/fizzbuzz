@@ -1,6 +1,6 @@
 package fizzbuzz.stage2;
 
-class Stage2
+public class Stage2
 {
 	//Like Stage1.java Commented out the main method as i thought it would be easier to test
 	/*public static void main(String[] args)

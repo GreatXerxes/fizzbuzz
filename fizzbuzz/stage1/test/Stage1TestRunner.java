@@ -1,4 +1,4 @@
-package fizzbuzz.stage1;
+package fizzbuzz.stage1.test;
 
 
 import java.util.ArrayList;
@@ -43,46 +43,6 @@ public class Stage1TestRunner
 			System.out.println(resultList.get(i).getName() + " : " + resultList.get(i).getResult().wasSuccessful());
 		}
 		
-		/*for (Failure failure : testNum.getResult().getFailures())
-		{
-	         System.out.println(testNum.getName() + " : " + failure.toString());
-	    }
-			
-		System.out.println(testNum.getName() + " : " + testNum.getResult().wasSuccessful());
-		
-		
-		for (Failure failure : testFizz.getResult().getFailures())
-		{
-	         System.out.println(testFizz.getName() + " : " + failure.toString());
-	    }
-			
-		System.out.println(testFizz.getName() + " : " + testFizz.getResult().wasSuccessful());
-		
-		
-		for (Failure failure : testBuzz.getResult().getFailures())
-		{
-	         System.out.println(testBuzz.getName() + " : " + failure.toString());
-	    }
-			
-		System.out.println(testBuzz.getName() + " : " + testBuzz.getResult().wasSuccessful());
-		
-		
-		
-		for (Failure failure : testFizzBuzz.getResult().getFailures())
-		{
-	         System.out.println(testFizzBuzz.getName() + " : " + failure.toString());
-	    }
-			
-		System.out.println(testFizzBuzz.getName() + " : " + testFizzBuzz.getResult().wasSuccessful());
-		
-		
-		for (Failure failure : testFail.getResult().getFailures())
-		{
-	         System.out.println(testFail.getName() + " : " + failure.toString());
-	    }
-			
-		System.out.println(testFail.getName() + " : " + testFail.getResult().wasSuccessful());*/
-
 	}
 }
 
